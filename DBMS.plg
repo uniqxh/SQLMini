@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DBMS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\_随心~1\AppData\Local\Temp\RSP56AD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\_随心所欲_\Desktop\SQLMini\DBMSDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\_随心~1\AppData\Local\Temp\RSP56AD.tmp"" 
+Creating temporary file "C:\Users\_随心~1\AppData\Local\Temp\RSP56AE.tmp" with contents
+[
+nafxcwd.lib libcmtd.lib SkinPPWTL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DBMS.pdb" /debug /machine:I386 /nodefaultlib:"nafxcwd.lib libcmtd.lib" /out:"Debug/DBMS.exe" /pdbtype:sept 
+".\Debug\BPlus_node.obj"
+".\Debug\BPlus_tree.obj"
+".\Debug\DBMS.obj"
+".\Debug\DBMSDlg.obj"
+".\Debug\newdir.obj"
+".\Debug\StdAfx.obj"
+".\Debug\DBMS.res"
+".\Debug\SkinPPWTL.lib"
+]
+Creating command line "link.exe @"C:\Users\_随心~1\AppData\Local\Temp\RSP56AE.tmp""
+<h3>Output Window</h3>
+Compiling...
+DBMSDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/DBMS.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\BPlus_node.sbr" ".\Debug\BPlus_tree.sbr" ".\Debug\DBMS.sbr" ".\Debug\DBMSDlg.sbr" ".\Debug\newdir.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DBMS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
